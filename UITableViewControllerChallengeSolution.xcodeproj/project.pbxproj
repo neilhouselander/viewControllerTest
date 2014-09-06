@@ -20,6 +20,7 @@
 		C1369A3719BB6B8B0056CC80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1369A1919BB6B8A0056CC80 /* UIKit.framework */; };
 		C1369A3F19BB6B8B0056CC80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1369A3D19BB6B8B0056CC80 /* InfoPlist.strings */; };
 		C1369A4119BB6B8B0056CC80 /* UITableViewControllerChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1369A4019BB6B8B0056CC80 /* UITableViewControllerChallengeSolutionTests.m */; };
+		C1369A4C19BB73880056CC80 /* NHNewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1369A4B19BB73880056CC80 /* NHNewTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C1369A3C19BB6B8B0056CC80 /* UITableViewControllerChallengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerChallengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		C1369A3E19BB6B8B0056CC80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1369A4019BB6B8B0056CC80 /* UITableViewControllerChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallengeSolutionTests.m; sourceTree = "<group>"; };
+		C1369A4A19BB73880056CC80 /* NHNewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NHNewTableViewController.h; path = ../NHNewTableViewController.h; sourceTree = "<group>"; };
+		C1369A4B19BB73880056CC80 /* NHNewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NHNewTableViewController.m; path = ../NHNewTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				C1369A2419BB6B8A0056CC80 /* NHAppDelegate.h */,
 				C1369A2519BB6B8A0056CC80 /* NHAppDelegate.m */,
 				C1369A2719BB6B8B0056CC80 /* Main.storyboard */,
+				C1369A4A19BB73880056CC80 /* NHNewTableViewController.h */,
+				C1369A4B19BB73880056CC80 /* NHNewTableViewController.m */,
 				C1369A2D19BB6B8B0056CC80 /* Images.xcassets */,
 				C1369A1C19BB6B8A0056CC80 /* Supporting Files */,
 			);
@@ -247,6 +252,7 @@
 			files = (
 				C1369A2619BB6B8A0056CC80 /* NHAppDelegate.m in Sources */,
 				C1369A2219BB6B8A0056CC80 /* main.m in Sources */,
+				C1369A4C19BB73880056CC80 /* NHNewTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
