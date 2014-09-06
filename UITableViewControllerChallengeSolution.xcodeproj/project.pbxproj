@@ -14,7 +14,6 @@
 		C1369A2219BB6B8A0056CC80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1369A2119BB6B8A0056CC80 /* main.m */; };
 		C1369A2619BB6B8A0056CC80 /* NHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1369A2519BB6B8A0056CC80 /* NHAppDelegate.m */; };
 		C1369A2919BB6B8B0056CC80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1369A2719BB6B8B0056CC80 /* Main.storyboard */; };
-		C1369A2C19BB6B8B0056CC80 /* NHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1369A2B19BB6B8B0056CC80 /* NHViewController.m */; };
 		C1369A2E19BB6B8B0056CC80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1369A2D19BB6B8B0056CC80 /* Images.xcassets */; };
 		C1369A3519BB6B8B0056CC80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1369A3419BB6B8B0056CC80 /* XCTest.framework */; };
 		C1369A3619BB6B8B0056CC80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1369A1519BB6B8A0056CC80 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		C1369A2419BB6B8A0056CC80 /* NHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAppDelegate.h; sourceTree = "<group>"; };
 		C1369A2519BB6B8A0056CC80 /* NHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAppDelegate.m; sourceTree = "<group>"; };
 		C1369A2819BB6B8B0056CC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1369A2A19BB6B8B0056CC80 /* NHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHViewController.h; sourceTree = "<group>"; };
-		C1369A2B19BB6B8B0056CC80 /* NHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHViewController.m; sourceTree = "<group>"; };
 		C1369A2D19BB6B8B0056CC80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C1369A3319BB6B8B0056CC80 /* UITableViewControllerChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1369A3419BB6B8B0056CC80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				C1369A2419BB6B8A0056CC80 /* NHAppDelegate.h */,
 				C1369A2519BB6B8A0056CC80 /* NHAppDelegate.m */,
 				C1369A2719BB6B8B0056CC80 /* Main.storyboard */,
-				C1369A2A19BB6B8B0056CC80 /* NHViewController.h */,
-				C1369A2B19BB6B8B0056CC80 /* NHViewController.m */,
 				C1369A2D19BB6B8B0056CC80 /* Images.xcassets */,
 				C1369A1C19BB6B8A0056CC80 /* Supporting Files */,
 			);
@@ -250,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1369A2C19BB6B8B0056CC80 /* NHViewController.m in Sources */,
 				C1369A2619BB6B8A0056CC80 /* NHAppDelegate.m in Sources */,
 				C1369A2219BB6B8A0056CC80 /* main.m in Sources */,
 			);
